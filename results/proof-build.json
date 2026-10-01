@@ -12,7 +12,7 @@
         "argument.tex"
       ],
       "exit_code": 0,
-      "wall_seconds": 0.8534088500000507
+      "wall_seconds": 0.8154304959999905
     },
     {
       "command": [
@@ -20,7 +20,7 @@
         "argument"
       ],
       "exit_code": 0,
-      "wall_seconds": 0.07623940900020898
+      "wall_seconds": 0.07231407599999784
     },
     {
       "command": [
@@ -32,7 +32,7 @@
         "argument.tex"
       ],
       "exit_code": 0,
-      "wall_seconds": 0.8358560279998528
+      "wall_seconds": 0.8153865169999932
     },
     {
       "command": [
@@ -44,7 +44,7 @@
         "argument.tex"
       ],
       "exit_code": 0,
-      "wall_seconds": 0.8899252869996417
+      "wall_seconds": 0.7745176530000037
     },
     {
       "command": [
@@ -56,13 +56,13 @@
         "argument.tex"
       ],
       "exit_code": 0,
-      "wall_seconds": 0.8437939299997197
+      "wall_seconds": 0.7865855839999938
     }
   ],
   "pages": 42,
   "layout_messages": [],
-  "wall_seconds": 3.501991395999994,
-  "child_cpu_seconds": 3.4946080000000004,
-  "peak_child_rss_bytes": 95076352,
+  "wall_seconds": 3.2760477779999917,
+  "child_cpu_seconds": 3.261679,
+  "peak_child_rss_bytes": 95072256,
   "status": "compiled"
 }
