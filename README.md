@@ -1,6 +1,6 @@
 # Distribution-robust tail scheduling
 
-Standalone mathematical argument and exact finite evidence for *Finite Load Advice for Tail-Order and Maximum-Flow Guarantees*, by Haoyi Zhang and Huaijin Ran. No sibling paper directory or unpublished input is required.
+Standalone mathematical argument and exact finite evidence for *Finite Load Advice for Tail-Order and Maximum-Flow Guarantees*, by Haoyi Zhang. No sibling paper directory or unpublished input is required.
 
 The model is a unit-speed M/G/1 queue with independent positive iid sizes, load in (0,1), and a regularly varying service tail with index below -1. The finite-input objective is maximum response time against a clairvoyant unit-speed optimum. One environment-level message selects a fixed deterministic causal, prefix-consistent policy; it supplies neither a future trace nor per-job sizes.
 
