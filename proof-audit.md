@@ -2,6 +2,8 @@
 
 This author-side map covers sixteen mathematical interfaces in *Finite Load Advice for Tail-Order and Maximum-Flow Guarantees*. Each item links a failure condition to the written argument, finite diagnostics, and limits of executable checking. It is not independent review or a proof-assistant certificate.
 
+The P01--P16 identifiers below name technical interfaces. The exported rows in `results/proof-obligations.csv` use O01--O16 for obligations at a different granularity; their `proof_interface_ids` field links to this map. The two numbering sequences are not interchangeable. P02 is a policy observation condition; the separate boundary suite, rather than this algebra checker, covers P16's finite speed cases.
+
 ## Audit protocol
 
 The audit freezes the declared model before attacking the proof: deterministic causal and prefix-consistent policies; unit-speed preemptive single server; no per-job size advice; one message selecting a public policy for an environment; finite-input maximum response measured against a clairvoyant unit-speed optimum; and a stationary Poisson M/G/1 model with positive iid sizes, load in `(0,1)`, finite mean, and regularly varying tail index below `-1`. Attacks that silently change any of these quantifiers do not refute the theorem, but they must be recorded as generality boundaries.
